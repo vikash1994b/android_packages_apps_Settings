@@ -94,5 +94,11 @@
         android:title="@string/global_actions_panel_short_title"
         android:fragment="com.android.settings.gestures.GlobalActionsPanelSettings"
         settings:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController" />
+		
+	<lineageos.preference.LineageSystemSettingSwitchPreference
+        android:key="swipe_to_screenshot"
+        android:title="@string/swipe_to_screenshot_gesture_title"
+        android:summary="@string/swipe_to_screenshot_gesture_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
